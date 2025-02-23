@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>お問合せ</title>
+        <meta name="description" content="大人になる一歩を深山ワインとともに">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <!-- Googleフォント -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Noto+Sans+JP:wght@100..900&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+        <!-- 指定するCSS -->
+        <link href="style.css" rel="stylesheet">
+        <!-- jQuery本体パス指定 -->
+        <script src="jquery-3.7.1.slim.min.js"></script>
+        <!-- 制作用jsファイル指定 -->
+        <script src="script.js"></script>
+
+    </head>
+
+    <body>
+        <div id="contact" class="big-bg">
+            <!-- header -->
+            <header class="page-header wrapper">
+                <!-- メインタイトル -->
+                <h1 class="main-title"><a href="index.html">深山ワイン</a></h1>
+                <!-- ナビゲーションメニュー -->
+                <ul class="main-nav">
+                    <li><a href="menu.html">ホーム</a></li>
+                    <li><a href="main.html">深山ワイン</a></li>
+                    <li><a href="event.html">イベント</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </header>
+
+            <div class="form-wrapper">
+                <h2 class="contact-title">お問い合わせ</h2>
+                <p class="contact-p">お気軽にお問い合わせ下さい。</p>
+                <form action="#">
+                    <div>
+                        <label for="name">お名前</label>
+                        <input type="text" id="name" name="your-name">
+                    </div>
+
+                    <div>
+                        <label for="email">メールアドレス</label>
+                        <input type="email" id="email" name="your-email">
+                    </div>
+
+                    <div>
+                        <label for="message">メッセージ</label>
+                        <textarea id="message" name="your-message"></textarea>
+                    </div>
+
+                    <input type="submit" class="button" value="送信">
+                </form>
+            </div><!-- /.wrapper-->
+
+
+            
+        </div><!-- /#home -->
+
+
+        
+    </body>
+
+    <footer >
+        <div class="wrapper">
+            <p><small>&copy; 2024 深山ワイン</small></p>
+        </div>
+    </footer>
+</html>
