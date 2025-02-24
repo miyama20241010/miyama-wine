@@ -409,10 +409,11 @@ input[type="submit"] {
 /* モバイル版　------------------ */
 @media (max-width:600px) {
   .page-title {
-    font-size: 2.5rem;
+    font-size: 1.25rem;
   }
 
-  /* HEADER */ 
+  /* HEADER */
+
   .main-nav {
     font-size: 1rem;
     margin-top: 10px;
@@ -428,12 +429,26 @@ input[type="submit"] {
     flex-direction: column;
     align-items: center;
   }
+
   /* Flexbox */
   .flex {
     flex-direction: column;
   }
   .right,
   .left {
+    width: 100%;
+    margin: 16px, 0;
+  }
+  
+  /* event */
+  .event-title {
+    font-size: 1.25rem;
+  }
+
+  .event-wrapper p {
+    font-size: 1rem;
+  }
+  .map {
     width: 100%;
   }
 
