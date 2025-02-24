@@ -436,5 +436,9 @@ input[type="submit"] {
   .flex {
     flex-direction: column;
   }
+  .right,
+  .left {
+    width: 100%;
+  }
 
 }
