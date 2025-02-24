@@ -412,11 +412,7 @@ input[type="submit"] {
     font-size: 2.5rem;
   }
 
-  /* HEADER */
-  .main-title {
-    display: none;
-  }
-    
+  /* HEADER */ 
   .main-nav {
     font-size: 1rem;
     margin-top: 10px;
