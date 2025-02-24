@@ -409,12 +409,12 @@ input[type="submit"] {
 /* モバイル版　------------------ */
 @media (max-width:600px) {
   .page-title {
-    font-size: 16px;
+    font-size: 2.5rem;
   }
 
   /* HEADER */
   .main-nav {
-    font-size: 10px;
+    font-size: 1rem;
     margin-top: 10px;
   }
   .main-nav li {
