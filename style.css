@@ -413,6 +413,10 @@ input[type="submit"] {
   }
 
   /* HEADER */
+  .main-title {
+    display: none;
+  }
+    
   .main-nav {
     font-size: 1rem;
     margin-top: 10px;
