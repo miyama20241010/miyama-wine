@@ -437,7 +437,20 @@ input[type="submit"] {
   /* Flexbox */
   .flex {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
   }
+  .flex .right {
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  
+  .flex .left {
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+
   .right,
   .left {
     width: 100%;
