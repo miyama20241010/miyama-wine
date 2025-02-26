@@ -47,7 +47,9 @@ img {
 }
 .main-nav a {
     color: #fff;
+   
 }
+
 .main-nav a:hover {
     color: #b9aa9d;
 }
@@ -74,7 +76,7 @@ img {
   }
 
   #home {
-    background-image: url(./images/main-bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./images/main-bg.jpg);
     background-color: #000;
     background-blend-mode: hard-light;
     min-height: 100vh;
@@ -103,7 +105,7 @@ img {
 
   .button19 a {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
     margin: 0 auto;
@@ -152,7 +154,7 @@ img {
 
   /* menu　------------------ */
   #menu {
-    background-image: url(./images/main-bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./images/main-bg.jpg);
     background-color: #000;
     background-blend-mode: hard-light;
     min-height: 100vh;
@@ -220,11 +222,12 @@ img {
  }
 
  /* 深山ワインヘッダー　*/ 
- .main-header {
+ .header-bg {
   background-image: url(./images/main-bg.jpg);
   background-color: #000;
   background-blend-mode: hard-light;
   height: 100px;
+  
 }
 
  /* grid　*/ 
@@ -303,7 +306,7 @@ img {
 /* event　------------------ */
 
 #event {
-  background-image: url(./images/main-bg.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./images/main-bg.jpg);
   background-color: #000;
   background-blend-mode: hard-light;
   min-height: 100vh;
@@ -342,7 +345,7 @@ img {
 
 /* contact　------------------ */
 #contact {
-  background-image: url(./images/main-bg.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./images/main-bg.jpg);
   background-color: #000;
   background-blend-mode: hard-light;
   min-height: 100vh;
@@ -405,6 +408,7 @@ input[type="submit"] {
 .button:hover {
   background-color: #bbbbbb;
 }
+
 
 /* モバイル版　------------------ */
 @media (max-width:600px) {
