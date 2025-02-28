@@ -34,6 +34,13 @@ img {
     color: #b9aa9d;
 }
 
+/* nav　------------------ */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main-nav {
     display: flex;
     /* 16px*1.25=20px　------------------ */
@@ -53,6 +60,21 @@ img {
 .main-nav a:hover {
     color: #b9aa9d;
 }
+
+/* ハンバーガーメニュー */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+}
+
 
 /* ロゴとナビの横並び指定　------------------ */
 .page-header {
@@ -218,8 +240,13 @@ img {
 
  footer p {
   color: #fff;
-  font-size: 0.875rem;
  }
+
+ .footer-title {
+  font-size: 1.5rem;
+ }
+
+
 
  /* 深山ワインヘッダー　*/ 
  .header-bg {
@@ -341,6 +368,27 @@ img {
   background-color: #190000;
 }
 
+.circle {	
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+  background: #aa3746;
+  margin: 1%;
+}
+
+.circle span {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width :200px;
+  text-align:center;
+}
+
 
 
 /* contact　------------------ */
@@ -413,7 +461,7 @@ input[type="submit"] {
 /* モバイル版　------------------ */
 @media (max-width:600px) {
   .page-title {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
   }
 
   /* HEADER */
@@ -430,11 +478,21 @@ input[type="submit"] {
     margin-top: 20%;
   }
   .page-header {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
   }
 
+  /* MAIN */
+  .figure {
+    border-top: 1px dotted #fff;
+  }
+
+
   /* Flexbox */
+  .title {
+    font-size: 1.75rem;
+  }
+
   .flex {
     flex-direction: column;
     justify-content: center;
@@ -456,7 +514,7 @@ input[type="submit"] {
     width: 100%;
     margin: 16px, 0;
   }
-    
+
   /* flexの並び */
   .order1 {
     order: 1;
@@ -479,7 +537,7 @@ input[type="submit"] {
   
   /* event */
   .event-title {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
   }
 
   .event-wrapper p {
@@ -488,5 +546,34 @@ input[type="submit"] {
   .map {
     width: 100%;
   }
+
+  /* contact */
+  .contact-title {
+    font-size: 1.75rem;
+  }
+
+/* ハンバーガーメニュー */
+.main-nav {
+  display: none;
+  flex-direction: column;
+}
+
+.menu-icon {
+  display: flex;
+  margin-top: 28px;
+}
+
+.active {
+  display: flex;
+}
+
+/* FOOTER */
+.footer-title {
+  border-bottom: 1px dotted #fff;
+}
+.add1 {
+  border-bottom: 1px dotted #fff;
+}
+
 
 }
