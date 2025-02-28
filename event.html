@@ -29,12 +29,20 @@
                 <!-- メインタイトル -->
                 <h1 class="main-title"><a href="index.html">深山ワイン</a></h1>
                 <!-- ナビゲーションメニュー -->
-                <ul class="main-nav">
-                    <li><a href="menu.html">ホーム</a></li>
-                    <li><a href="main.html">深山ワイン</a></li>
-                    <li><a href="event.html">イベント</a></li>
-                    <li><a href="contact.html">お問い合わせ</a></li>
-                </ul>
+                <nav>
+                    <div class="menu-icon" id="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div><!-- /.menu-icon -->
+
+                    <ul class="main-nav" id="main-nav">
+                        <li><a href="menu.html">ホーム</a></li>
+                        <li><a href="main.html">深山ワイン</a></li>
+                        <li><a href="event.html">イベント</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </nav> 
             </header>
 
             <div class="event-wrapper">
@@ -43,7 +51,19 @@
                 <p>10:00-16:00</p>
                 <p>深山駅前いこいの広場</p>
                 <br>
-                <p>当日は、深山果樹園による果物販売も行います。</p>
+                <p>さまざまなイベントも同時開催！！</p>
+                <div class="flex">
+                    <div class="circle">
+                        <span>深山果樹園による<br>果物販売</span>
+                    </div>
+                    <div class="circle">
+                        <span>キッチンカーによる<br>おつまみ販売</span>
+                    </div>
+                    <div class="circle">
+                        <span>深山ワインが当たる<br>抽選会</span>
+                    </div>
+                </div>
+
                 <center><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.304333754139!2d138.18606877539992!3d36.64312857653867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d86928bda4687%3A0x352975ada43bd23b!2z6ZW36YeO6aeF!5e0!3m2!1sja!2sjp!4v1740123468958!5m2!1sja!2sjp" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
                 
             </div><!-- /.event-wrapper -->
@@ -59,7 +79,26 @@
 
     <footer >
         <div class="wrapper">
-            <p><small>&copy; 2024 深山ワイン</small></p>
+            <div class="footer-title">
+                <p>深山ワイン</p>
+                <p>miyama wine</p>
+            </div>
+
+            <div class="flex menu1">
+                <div class="right add1">
+                    <p class="text">深山果樹園</p>
+                    <p class="text">〒000-0000</p>
+                    <p class="text">長野県深山市みやま1-2-3</p>
+                    <p class="text">TEL: 0123-123-1234</p>
+                </div>
+                <div class="right add2">
+                    <p class="text">深山大学農学部</p>
+                    <p class="text">〒000-0000</p>
+                    <p class="text">長野県深山市みやま3-2-1</p>
+                    <p class="text">TEL: 0123-123-1111</p>
+                  </div>
+            </div><!-- /.flex menu1 -->
+
         </div>
     </footer>
 </html>
