@@ -330,6 +330,13 @@ img {
   margin: auto;
 }
 
+/* shop　------------------ */
+.shop-img {
+  margin: auto;
+  display: block;
+  margin-bottom: 5%;
+}
+
 /* event　------------------ */
 
 #event {
@@ -469,6 +476,7 @@ input[type="submit"] {
   .main-nav {
     font-size: 1rem;
     margin-top: 10px;
+    background-color: #190000;
   }
   .main-nav li {
     margin: 0 20px;
@@ -521,6 +529,7 @@ input[type="submit"] {
   }
   .order2 {
     order: 2;
+
   }
   .order3 {
     order: 3;
